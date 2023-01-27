@@ -1,0 +1,8 @@
+.banner {
+    background: url(../images/about_us/about_banner.jpg) 0 0 no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1215px;
+    z-index: 2;
+    padding-top: 17%;
+}

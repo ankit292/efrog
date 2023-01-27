@@ -1,0 +1,97 @@
+.metholodogy-block::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 47%);
+    pointer-events: none;
+    background: linear-gradient(135deg, #c150fc 1%, #c150fc 31%, #886ef5 100%);
+}
+
+.bx-viewport {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 427px;
+}
+
+.desktop-slider {
+    width: auto;
+    position: relative;
+    transition-duration: 0.5s;
+    transform: translate3d(0px, -1401.52px, 0px);
+}
+
+.desktop-slider li {
+    float: none;
+    list-style: none;
+    position: relative;
+    width: 755px;
+    margin-bottom: 40px;
+}
+
+
+/* .bx-wrapper {
+    position: relative;
+    padding: 0;
+    touch-action: pan-y;
+} */
+
+
+/*Slider CSS*/
+
+.js-ticker {
+    overflow: hidden;
+    width: 100%;
+}
+
+.js-ticker-track {
+    white-space: nowrap;
+    position: relative;
+    white-space: normal;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.js-ticker-item {
+    white-space: normal;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    display: block;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.js-ticker.active .js-ticker-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.js-ticker.active .js-ticker-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.speed-test-item {
+    width: 25%;
+    padding: 10px;
+}
+
+.speed-test-item img {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 0 5px rgba(58, 58, 58, 0.7);
+}
+
+
+/*Slider CSS*/

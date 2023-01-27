@@ -1,0 +1,177 @@
+.contact_box {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact_box_content {
+    padding-top: 20px;
+}
+
+.contact_box_content h3 {
+    font-weight: 700;
+}
+
+.content_block p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.content_block .contact_box_content p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus,
+a,
+a:hover,
+ :visited,
+ :focus,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.contact_box_content p a {
+    color: #222;
+}
+
+.contact_box_content p a:hover {
+    color: #e56557;
+}
+
+.contact_whychoose {
+    background: #f9f8fe;
+}
+
+.contact_form {
+    padding: 0 150px;
+}
+
+.contact_form_group {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text_block_input .contact_form_input,
+.text_block_input .contact_form_select {
+    border: none;
+    padding-left: 20px;
+    height: 40px;
+    background: #fff;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(173, 168, 173, 1);
+}
+
+.text_block_input {
+    width: 48%;
+}
+
+.text_block_input:last-child {
+    width: 100%;
+}
+
+.contact_form_group .text_block_input label {
+    position: absolute;
+    left: 19px;
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 0;
+    transition: all 0.3s linear;
+    top: 8px;
+}
+
+.contact_form_group .text_block_input input:valid+label {
+    top: 8px;
+}
+
+.contact_form_group .text_block_input textarea:valid+label {
+    top: 40px;
+}
+
+.contact_form_group .text_block_input input:focus+label {
+    top: -13px;
+    color: #ffbd1a;
+}
+
+.contact_form_group .text_block_input textarea:focus+label {
+    top: 14px;
+    color: #ffbd1a;
+}
+
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.contact_form_message {
+    border-radius: 5px;
+    margin-top: 30px;
+    border: none;
+    padding: 15px;
+    height: 180px;
+    box-shadow: 0px 0px 10px 0px rgba(173, 168, 173, 1);
+}
+
+.contact_form_button {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact_form_btn {
+    width: 50%;
+    height: 40px;
+    color: #fff;
+    background: #000;
+    transition: 0.3s;
+}
+
+.contact_form_btn:hover {
+    background: #f75850;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .contact_form {
+        padding: 0 30px;
+    }
+    .text_block_input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact_form_group .text_block_input label,
+    .contact_form_group .text_block_input select {
+        font-size: 14px;
+    }
+    .contact_form_message {
+        margin-top: 0;
+    }
+    .whychoose_section {
+        padding-bottom: 70px;
+    }
+    .contact_form_group .text_block_input input:valid+label {
+        top: 8px;
+    }
+    .contact_form_group .text_block_input textarea:valid+label {
+        top: 8px;
+    }
+    .contact_form_group .text_block_input input:focus+label {
+        top: -10px;
+        color: #ffbd1a;
+    }
+    .contact_form_group .text_block_input textarea:focus+label {
+        top: -10px;
+        color: #ffbd1a;
+    }
+    .contact_form_button {
+        padding: 0px 0 20px;
+    }
+}

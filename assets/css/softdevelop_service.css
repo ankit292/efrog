@@ -1,0 +1,193 @@
+    .banner {
+        background: url(../images/about_us/about_banner.jpg) 0 0 no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1215px;
+        z-index: 2;
+        padding-top: 17%;
+    }
+    /* customer process */
+    
+    .d_proccess_boxes {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .d_proccess_box {
+        box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.08);
+        /* min-width: 188px; */
+        min-height: 306px;
+        width: 17%;
+        padding: 20px 8px 10px;
+    }
+    
+    .d_proccess_next {
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .d_proccess_box_img {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .d_proccess_box_img img {
+        max-width: 132px;
+    }
+    
+    .d_proccess_box h3 {
+        text-align: center;
+        font-size: 16px;
+        color: #000000;
+        font-family: 'Muli', sans-serif;
+        font-weight: bold;
+    }
+    
+    .d_proccess_ul {
+        list-style-type: none;
+        padding: 0 20px 0 10px;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .d_proccess_ul li {
+        font-size: 12px;
+        color: #6b6b6b;
+        padding-left: 10px;
+        display: block;
+        font-family: 'Muli', sans-serif;
+        position: relative;
+    }
+    
+    .d_proccess_ul li:after {
+        position: absolute;
+        content: '';
+        width: 5px;
+        height: 1px;
+        top: 10px;
+        left: 0;
+        background: #6b6b6b;
+    }
+    /* customer process end*/
+    /* ui second secton start */
+    
+    .step_img {
+        position: relative;
+        padding-bottom: 100px;
+    }
+    
+    .step_img:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        transition: all 0.8s linear;
+        background: #fff;
+        z-index: 5;
+    }
+    
+    .anim.step_img:after {
+        height: 0;
+    }
+    
+    .step_img img {
+        opacity: 0;
+        margin: 22px auto 0;
+    }
+    
+    .anim.step_img img {
+        opacity: 1;
+    }
+    
+    .trusted_icons {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    
+    .trusted_icon {
+        text-align: center;
+        width: 30%;
+        flex: 0 0 30%;
+    }
+    
+    .trusted_img {
+        min-height: 54px;
+    }
+    
+    .trusted_img img {
+        max-width: 50px;
+        max-height: 46px;
+    }
+    
+    .icon_name {
+        font-size: 16px;
+        color: #000000;
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+    }
+    /* ui second secton end */
+    
+    @media (max-width: 991px) {
+        .d_proccess_boxes {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .d_proccess_box {
+            margin-bottom: 23px;
+            width: 28%;
+        }
+        .d_proccess_next {
+            width: 8%;
+            justify-content: center;
+        }
+        .d_proccess_icon_3 {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .d_proccess_boxes {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .d_proccess_box {
+            width: 246px;
+        }
+        .d_proccess_box_img {
+            width: 100%;
+        }
+        .d_proccess_box_img img {
+            width: 80%;
+        }
+        .d_proccess_box h3 {
+            font-size: 14px;
+        }
+        .d_proccess_next {
+            transform: rotate(90deg);
+            margin-bottom: 20px;
+        }
+        .d_proccess_icon_3 {
+            display: block;
+        }
+        .step_img img {
+            width: 50%;
+        }
+        .trusted_img img {
+            max-width: 100%;
+        }
+        .icon_name {
+            font-size: 12px;
+        }
+    }

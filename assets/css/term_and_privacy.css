@@ -1,0 +1,80 @@
+/* term and condition */
+:root {
+    --bodyFont:'Apercu,sans-serif';
+    --headingFont:nocturne-serif, serif;
+}
+.overflow_hidden h1{
+    background: none;
+    -webkit-text-fill-color: inherit;
+}
+.main_div.term{
+    background: #fff;
+}
+.overflow_hidden{
+    padding-top: 120px;
+    margin: 0 auto;
+}
+
+.terms_page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.terms_page h1 {
+    text-align: left;
+    margin-bottom: 17px;
+    font-family: var(--headingFont);
+    color: #222;
+    line-height: 1.2;
+    font-size: 25px;
+}
+.terms_info p {
+    margin-bottom: 6px;
+}
+.terms_page p {
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 400;
+}
+.terms_page a {
+    color: #ff686b;
+}
+.terms_page h2 {
+    margin-bottom: 6px;
+    padding-top: 7px;
+    font-size: 18px;
+    font-family: var(--headingFont);
+    font-weight: 700;
+}
+.terms_page .phoneno_text{
+    color: #333;
+}
+.overflow_hidden ul, .overflow_hidden ol{
+    padding-left: 20px;
+}
+.overflow_hidden ul li, .overflow_hidden ol li{
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+
+
+@media (min-width: 768px){
+    .terms_page {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .terms_page h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .terms_page p {
+        line-height: 1.8;
+        font-size: 15px;
+    }
+    .terms_page h2 {
+        margin-bottom: 15px;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+}
